@@ -5,6 +5,7 @@ description: >-
 type: object
 documents:
   - selected
+  - query
 properties:
   regex:
     title: Regex
