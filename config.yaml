@@ -1,4 +1,4 @@
-title: Regex Extractor
+title: OG Regex Extractor
 description: >-
   This will return a JSON file of all strings the given regex matches in
   the selected files
