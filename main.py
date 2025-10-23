@@ -24,7 +24,7 @@ class Regex(AddOn):
             for document in self.get_documents():
                 for page_number in range(1, document.page_count + 1):
                     page_text = document.get_page_text(page_number)
-                    matches = pattern.findall(page_text)
+                    matches = pattern.search(page_text)
                     for match in matches:
                         writer.writerow([match, document.canonical_url, page_number])
 
